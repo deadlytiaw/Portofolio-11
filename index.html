@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Statis-Sulistia</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet" />
+    <!--Feather icon-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!--my style-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--navbar on-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Biodata<span>Saya.</span></a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Saya</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Hubungi</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="git"><i data-feather="github"></i></a>
+        <a href="#" id="humberger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!--navbar off-->
+
+    <!--hero section on-->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Profil<span>Saya</span></h1>
+        <p>Hai Saya Sulistia Maharani Syafitri Kelas XI Pplg 1 ini adalah web statis saya.</p>
+        <a href="#" class="cta">Lihat Sekarang</a>
+      </main>
+    </section>
+    <!--hero section off-->
+    <!--about section on-->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Saya</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/foto.jpg" alt="Sulistia" width="150" class="rounded-circle img-thumbnail" />
+        </div>
+        <div class="content">
+          <h3>Tentang Diri Saya</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, iusto?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, nulla! Debitis reprehenderit ut ducimus cupiditate.</p>
+        </div>
+      </div>
+    </section>
+    <!--about section off-->
+    <!--menu section on-->
+    <section id="project" class="project">
+      <h2><span>Project</span> Saya</h2>
+      <div class="row">
+        <div class="project-card">
+          <img src="img/portopolio-1.jpg" alt="Bahasa" class="project-card-img" />
+          <h3 class="menu-card-title">- beberapa bahasa pemograman -</h3>
+        </div>
+        <div class="project-card">
+          <img src="img/portopolio- 2.jpg" alt="Code" class="project-card-img" />
+          <h3 class="menu-card-title">- code -</h3>
+        </div>
+        <div class="project-card">
+          <img src="img/portopolio-5.jpg" alt="Code" class="project-card-img" />
+          <h3 class="menu-card-title">- bagian file di portopolio -</h3>
+        </div>
+      </div>
+    </section>
+    <!--menu section off-->
+    <!--contact section on-->
+    <section id="contact" class="contact">
+      <h2><span>Hubungi</span> Saya</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, mollitia.</p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.0498825216837!2d106.82211897411993!3d-6.64072806491583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c8b16ee07ef5%3A0x14ab253dd267de49!2sSMK%20Negeri%204%20Bogor%20(Nebrazka)!5e0!3m2!1sid!2sid!4v1694557477276!5m2!1sid!2sid"
+          width="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No hp" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!--conatact section off-->
+    <script>
+      feather.replace();
+    </script>
+    <!--my javascript-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
